@@ -1,0 +1,56 @@
+*
+{
+    scroll-behavior: smooth;
+}
+body
+{
+    background-color:burlywood;
+    height: 100%;
+}
+.banner
+{
+    margin-top: 0px;
+    margin-left: 0px;
+    font-size: 400%;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+}
+.row
+{
+    width: 100%;
+    margin: 0 auto;
+    font-size: 90%;
+    font-family: 'Pangolin', cursive;
+}
+.col
+{
+    width:20%;
+    float: left;
+    text-align:center;
+}
+.no_class
+{
+    color: burlywood;
+}
+@media (max-width: 640px) and (min-width: 360px)
+{
+    .banner
+    {
+        font-size: 300%;
+    }
+    .row
+    {
+        font-size: 5px;
+    }
+}
+@media (max-width: 360px)
+{
+    .banner
+    {
+        font-size: 100%;
+    }
+    .row
+    {
+        font-size: 5px;
+    }
+}
