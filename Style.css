@@ -17,9 +17,9 @@ body
 }
 .row
 {
-    width: 100%;
+    width:75%;
     margin: 0 auto;
-    font-size: 90%;
+    font-size: 14px;
     font-family: 'Pangolin', cursive;
 }
 .col
@@ -32,25 +32,138 @@ body
 {
     color: burlywood;
 }
-@media (max-width: 640px) and (min-width: 360px)
+
+@media (max-width:1300px) and (min-width:1103px)
 {
-    .banner
-    {
-        font-size: 300%;
-    }
     .row
     {
-        font-size: 5px;
+        width:75%;
+        margin: 0 auto;
+        font-size: 20px;
+        font-family: 'Pangolin', cursive;
+    }
+    .col
+    {
+        width:20%;
+        height: 90px;
+        float: left;
+        text-align:center;
     }
 }
-@media (max-width: 360px)
+@media (max-width:1103px) and (min-width:737px)
+{
+    .row
+    {
+        width:75%;
+        margin: 0 auto;
+        font-size: 17px;
+        font-family: 'Pangolin', cursive;
+    }
+    .col
+    {
+        width:20%;
+        height: 100px;
+        float: left;
+        text-align:center;
+    }
+}
+@media (max-width:737px) and (min-width:555px)
 {
     .banner
     {
-        font-size: 100%;
+        margin-top: 0px;
+        margin-left: 0px;
+        font-size: 300%;
+        text-align: center;
+        font-family: 'Indie Flower', cursive;
     }
     .row
     {
-        font-size: 5px;
+        width:75%;
+        margin: 0 auto;
+        font-size: 12px;
+        font-family: 'Pangolin', cursive;
+    }
+    .col
+    {
+        width:20%;
+        height: 100px;
+        float: left;
+        text-align:center;
+    }
+}
+@media (max-width:555px) and (min-width:446px)
+{
+    .banner
+    {
+        margin-top: 0px;
+        margin-left: 0px;
+        font-size: 200%;
+        text-align: center;
+        font-family: 'Indie Flower', cursive;
+    }
+    .row
+    {
+        width:75%;
+        margin: 0 auto;
+        font-size: 60%;
+        font-family: 'Pangolin', cursive;
+    }
+    .col
+    {
+        width:20%;
+        height: 80px;
+        float: left;
+        text-align:center;
+    }
+}
+@media (max-width:446px) and (min-width:400px)
+{
+    .banner
+    {
+        margin-top: 0px;
+        margin-left: 0px;
+        font-size: 150%;
+        text-align: center;
+        font-family: 'Indie Flower', cursive;
+    }
+    .row
+    {
+        width:75%;
+        margin: 0 auto;
+        font-size: 55%;
+        font-family: 'Pangolin', cursive;
+    }
+    .col
+    {
+        width:20%;
+        height: 70px;
+        float: left;
+        text-align:center;
+    }
+}
+@media (max-width:400px)
+{
+    .banner
+    {
+        margin-top: 0px;
+        margin-left: 0px;
+        font-size: 150%;
+        text-align: center;
+        font-family: 'Indie Flower', cursive;
+    }
+    .row
+    {
+        width:75%;
+        margin: 0 auto;
+        font-size: 50%;
+        font-family: 'Pangolin', cursive;
+    }
+    .col
+    {
+        width:20%;
+        height: 50px;
+        float: left;
+        text-align:center;
     }
 }
